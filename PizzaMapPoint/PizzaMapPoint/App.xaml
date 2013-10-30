@@ -1,0 +1,17 @@
+﻿<Application
+    x:Class="PizzaMapPoint.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Common/StandardStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <SolidColorBrush x:Key="BackButtonForegroundThemeBrush" Color="Black" />
+            <SolidColorBrush x:Key="BackButtonPressedForegroundThemeBrush" Color="White" />
+            <SolidColorBrush x:Key="BackButtonPointerOverForegroundThemeBrush" Color="CornflowerBlue" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
